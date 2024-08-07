@@ -1,0 +1,13 @@
+{
+    "level": 1,
+    "cells": [
+        {"x": 1, "y": 0, "type": "type2", "targetRotations": [180]},
+        {"x": 1, "y": 1, "type": "type1", "targetRotations": [0, 180]},
+        {"x": 1, "y": 2, "type": "type1", "targetRotations": [0, 180]},
+        {"x": 2, "y": 0, "type": "type1", "targetRotations": [90, 270]},
+        {"x": 1, "y": 3, "type": "type1", "targetRotations": [0, 180]},
+        {"x": 1, "y": 4, "type": "type2", "targetRotations": [0]},
+        {"x": 0, "y": 4, "type": "type1", "targetRotations": [90, 270]}
+    ],
+    "rotationAngle": 90
+}
