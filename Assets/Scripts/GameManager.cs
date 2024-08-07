@@ -105,7 +105,7 @@ public class GameManager : MonoBehaviour
         {
             isGamePaused = true;
             PullChain.Instance.pauseMenu.SetActive(true);
-            Time.timeScale = 0f; 
+            Time.timeScale = 0.1f; 
         }
     }
 

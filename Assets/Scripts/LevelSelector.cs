@@ -14,7 +14,7 @@ public class LevelSelector : MonoBehaviour
 
     void Start()
     {
-       // highestLevelReached = PlayerPrefs.GetInt("HighestLevelReached", 1);
+        highestLevelReached = PlayerPrefs.GetInt("HighestLevelReached", 1);
         UpdateLevelNumber();
         UpdateArrowButtons();
     }
@@ -29,7 +29,7 @@ public class LevelSelector : MonoBehaviour
         UpdateArrowButtons();
 
         StopAllCoroutines();
-        StartCoroutine(DelayedLoadLevel(2f));
+        StartCoroutine(DelayedLoadLevel(.1f));
     }
 
     IEnumerator DelayedLoadLevel(float delay)
